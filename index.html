@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon 8</title>
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap" rel="stylesheet">
@@ -13,57 +14,56 @@
 <body>
     <section class="bg-gray-100" style="font-family: 'Frank Ruhl Libre', serif;">
         <div class="flex">
-            <div class="w-1/2 h-full">
+            <div class="hidden xl:block lg:block lg:w-1/2 xl:w-1/2 md:hidden sm:hidden h-full">
                 <img src="images/image.png">
             </div>
-            <div class="w-1/2 justify-center p-10 text-center relative">
-                <div>
+            <div class="xl:w-1/2 lg:w-1/2 md:w-full sm:w-full w-full justify-center xl:p-10 lg:p-10 md:p-10 sm:p-5 p-0 text-center xl:relative lg:relative md:relative ">
+                <div class="p-5">
                     <img src="images/deadline.png" class="ml-auto mr-auto">
                 </div>
 
-                <div class="content-center items-center" style="position:absolute; top:40%; left:50%; transform: translate(-50%, -50%); ">
-                    <div id="countdown" class="flex text-center mt-10 p-5 justify-center">
+                <div class="content">
+                    <div id="countdown" class="flex text-center mt-10 xl:p-5 lg:p-5 md:p-5 sm:p-5 p-0 justify-center">
                         <div class="p-2">
                             <h2 id="days" class="text-4xl font-semibold">00</h2>
                             <small class="text-gray-500 uppercase font-semibold">days</small>
                         </div>
-                        <div class="p-2 pl-10">
+                        <div class="p-2 xl:pl-10 lg:pl-10 md:pl-10 sm:pl-5 pl-5">
                             <h2 id="hours" class="text-4xl font-semibold">00</h2>
                             <small class="text-gray-500 uppercase font-semibold">hours</small>
                         </div>
-                        <div class="p-2 pl-10">
+                        <div class="p-2 xl:pl-10 lg:pl-10 md:pl-10 sm:pl-5 pl-5">
                             <h2 id="minutes" class="text-4xl font-semibold">00</h2>
                             <small class="text-gray-500 uppercase font-semibold">minutes</small>
                         </div>
-                        <div class="p-2 pl-10">
+                        <div class="p-2 xl:pl-10 lg:pl-10 md:pl-10 sm:pl-5 pl-5">
                             <h2 id="seconds" class="text-4xl font-semibold">00</h2>
                             <small class="text-gray-500 uppercase font-semibold">seconds</small>
                         </div>
                     </div>
                     <div class="p-5">
-                        <h1 class="text-4xl font-semibold">We are launching soon please reload after days</h1>
+                        <h1 class="xl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl text-xl font-semibold">We are launching soon please reload after days</h1>
                     </div>
                     <div class="text-gray-500 pl-5 pr-5 pb-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiu sit amet consectetur
                             adipisicing
                         </p>
                     </div>
-                    <div class="flex justify-center">
+                    <div class="flex justify-center xl:flex-row lg:flex-row md:flex-row sm:flex-row flex-col">
                         <div class="rounded-full bg-gray-200 pl-4 pr-4 pt-2 pb-2 ">
                             <input type="email" placeholder="Enter email address" class="bg-gray-200 outline-none">
                         </div>
-                        <div class="ml-5 rounded-full pl-6 pr-6 pt-2 pb-2"
-                            style="background-image: -webkit-linear-gradient(-31deg, rgb(255, 195, 113) 0%, rgb(255, 95, 109) 100%);">
+                        <div class="xl:ml-5 lg:lg:ml-5 md:ml-5 sm:ml-5 xl:mt-0 lg:lg:mt-0 md:mt-0 sm:mt-0 mt-5 rounded-full pl-6 pr-6 pt-2 pb-2" style="background-image: -webkit-linear-gradient(-31deg, rgb(255, 195, 113) 0%, rgb(255, 95, 109) 100%);">
                             <button class="uppercase text-white font-semibold">
                                 Notify me
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="absolute bottom-0 right-0 left-0">
+                <div class="xl:absolute lg:relative md:relative sm:relative absolute  bottom-0 right-0 left-0 ">
                     <div class="mt-16 flex justify-center">
                         <div
-                            class="ml-5 bg-gray-200 hover:bg-red-400 hover:text-white rounded-full pl-4 pr-4 pt-4 pb-4">
+                            class="ml-5 bg-gray-200 hover:bg-red-400 hover:text-white rounded-full pl-5 pr-5 pt-4 pb-4">
                             <i class="fab fa-twitter"></i>
                         </div>
                     </div>
