@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming soon 19</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="bg-black" style="font-family: 'Comfortaa', cursive;">
+        <div class="w-full justify-center p-10 text-center relative" style="background-image: url(/images/bg-image.png); 
+            background-size: 600px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            height: 100%;">
+            <div>
+                <img src="images/deadline2.png" class="ml-auto mr-auto">
+            </div>
+
+            <div class="text-white" style="position:absolute; top:40%; left:50%; transform: translate(-50%, -50%); ">
+                <div id="countdown" class="flex text-center mt-10 p-5 justify-center">
+                    <div class="p-2">
+                        <h2 id="days" class="text-6xl font-semibold">00</h2>
+                        <small class="uppercase font-semibold">days</small>
+                    </div>
+                    <div class="p-2 pl-16">
+                        <h2 id="hours" class="text-6xl font-semibold">00</h2>
+                        <small class="uppercase font-semibold">hours</small>
+                    </div>
+                    <div class="p-2 pl-16">
+                        <h2 id="minutes" class="text-6xl font-semibold">00</h2>
+                        <small class="uppercase font-semibold">minutes</small>
+                    </div>
+                    <div class="p-2 pl-16">
+                        <h2 id="seconds" class="text-6xl font-semibold">00</h2>
+                        <small class="uppercase font-semibold">seconds</small>
+                    </div>
+                </div>
+                <div class="p-5 m-auto" style="max-width: 550px;">
+                    <h1 class="text-4xl font-bold" style="font-family: 'Anton', sans-serif;">We are launching soon please reload after days</h1>
+                </div>
+                <div class="pl-5 pr-5 pb-16 m-auto" style="max-width: 420px;">
+                    <p>We will come very quickly to offer you the best solution for your company.</p>
+                </div>
+                <div class="flex justify-center">
+                    <div class="rounded-full bg-gray-900  pl-8 pr-8 pt-2 pb-2 ">
+                        <input type="email" placeholder="Enter email address" class="bg-gray-900 outline-none">
+                    </div>
+                    <div class="ml-5 rounded-full pl-6 pr-6 pt-2 pb-2"
+                        style="background-image: -webkit-linear-gradient(-31deg, rgb(86, 204, 242) 0%, rgb(47, 128, 237) 100%);">
+                        <button class="uppercase text-white font-semibold">
+                            Notify me
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bottom-0 right-0 left-0">
+                <div class="mt-16 flex justify-center">
+                    <div
+                        class="ml-5 bg-gray-900 text-white hover:bg-gray-800 hover:text-white rounded-full pl-5 pr-5 pt-4 pb-4">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="text-gray-600 p-5">
+                    Copyright 2020 by RedQ, Inc. All rights reserved
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
